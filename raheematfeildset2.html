@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> STUDENT BIO DATA INFORMATION</legend>
+        <fieldset>
+            <legend> EDUCATIONAL HISTORY</legend>
+            <label for="primary"> PRIMARY SCHOOL ATTENDED</label><br>
+            <select id="primary" name="prmary">
+             <option value="select">SELECTED</option>   
+            <option value="saint">SAINT DAVDEL</option>
+            <option value="best">BEST GIFT</option></select> <br> <br>
+            
+            <label for="secondary">SECONDARY SCHOOL ATTENDED</label><br>
+            <select id="secondary" name="secondary">
+             <option value="select">SELECT</option>
+             <option value="al anfaal"> AL ANFAAL</option>
+             <option value="foldemi college">FOLDEMI COLLEGE</option> 
+             </select>
+             </fieldset>
+             <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+                <label for="sur">SURNAME</label><br><input type="text" id="sur" name="sur"><br><br>
+                <label for="firstname">FIRST NAME</label><br> <input type="text" id="fname" name="fname"><br><br>
+                <label for="dob">DATE OF BIRTH</label><br> <input type="date" id="date" name="date"><br><br>    
+                <label for="email">EMAIL</label><br> <input type="text" id="email" name="email"><br><br>
+                <label for="phnumber">PHONE NUMBER</label><br><input type="number" id="number" name="number">
+
+             </fieldset>
+             <fieldset>
+                <legend>HIGHER INSTITUTION</legend>
+                <div>
+                <label for="FACULTY">FACULTY</label><br>
+                <input list="faculty" type="text">
+                <datalist id="faculty" >
+                    <option value="ENGENEERING">
+                    <option value="SCIENCE">
+                    <option value="EDUCATION">
+                    <option value="TECHNOLOGY">
+                    <option value="ARTS AND SCIENCE">
+                    <option value="SOCIAL SCIENCE">
+
+                    
+
+                </datalist>
+                 </div><BR>
+                 <div>
+                    <label for="dept">DEPARTMENT</label><br>
+                    <input list="dept" type="text">
+                    <datalist id="dept">
+                        <option value="MASS COMM">
+                        <option value="CIVIL ENGENEERING">
+                        <option value="ENGLISH">
+                        <option value="BUS ADMIN">
+                        <option value="MATHEMATICS">
+
+
+                    </datalist> 
+                 </div><br>
+                 <div>
+                    <label for="state of origin"> STATE OF ORIGIN</label><br>
+                    <input list="state of origin" type="text">
+                    <datalist id="state of origin">
+                        <option value="LAGOS">
+                        <option value="IMO">
+                        <option value="IMO"> 
+                        <option value="JOS">
+                        <option value="OYO">
+                        <option value="ONDO">
+                        <option value="NASAWARA">
+                        <option value="OGUN">
+                        <option value="RIVER">
+                        <option value="SOKOTO">
+                    </datalist>
+                 </div> <br>
+                 <button type="submit"> SUBMIT</button>
+             </fieldset>
+             </fieldset>
+         </form>
+    
+</body>
+</html>
